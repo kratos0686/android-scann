@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "android",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Android Launch",
+            "appSrcRoot": "${workspaceFolder}/ARRoomScannerApp/app/src/main/java",
+            "apkFile": "${workspaceFolder}/ARRoomScannerApp/app/build/outputs/apk/debug/app-debug.apk",
+            "adbPort": 5037
         }
     ]
 }
